@@ -54,3 +54,54 @@ Standard    (6 months)
 Premium     (12 months)
 
 
+
+
+## Spread Operator
+data ={
+    name: "rohan",
+    age: 2
+}
+
+{
+    ...data,
+    age: 5,
+    surname: "kinnal"
+}
+
+data={
+    name:"rohan",
+    age: 5,
+    surname: "kinnal"
+    }
+
+
+
+...each
+
+          "id": "1",
+          "name": "John",
+          "surname": "Doe",
+          "email": "user@email.com",
+          "issuedBook": "1",
+          "issuedDate": "04/01/2022",
+          "returnDate": "05/01/2022",
+          "subscriptionType": "Premium",
+          "subscriptionDate": "04/01/2022"
+
+...data
+        "surname": "Kinnal" 
+
+O/P:
+          "id": "1",
+          "name": "John",
+          "surname": "Kinnal",
+          "email": "user@email.com",
+          "issuedBook": "1",
+          "issuedDate": "04/01/2022",
+          "returnDate": "05/01/2022",
+          "subscriptionType": "Premium",
+          "subscriptionDate": "04/01/2022"
+
+
+int arr = [20, 21, 22]
+arr.indexOf(21)
