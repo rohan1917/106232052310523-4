@@ -3,7 +3,7 @@ const express = require("express");
 // Data import
 const {books} = require("../data/books.json");
 const {users} = require("../data/users.json");
-const { route } = require("./users");
+// const { route } = require("./users");
 
 // Local Router
 const router = express.Router();

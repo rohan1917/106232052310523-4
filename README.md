@@ -25,7 +25,7 @@ User => 3 months || 6 months || 12 months
 
 ## users/subscription-details/{id}
 GET: Get user subscription details
-1. Dat of subscription
+1. Date of subscription
 2. valid till
 3.Fine if any 
 
