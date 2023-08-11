@@ -108,7 +108,7 @@ router.post("/", (req, res)=>{
 /**
  * Route: /books/:id
  * Method: PUT
- * Decsription: Update a Bookk By Its ID
+ * Decsription: Update a Book By Its ID
  * Access: Public
  * Paramaters: Id
  */
@@ -139,3 +139,4 @@ router.put("/:id", (req, res)=>{
 
 // Default Export
 module.exports = router;
+

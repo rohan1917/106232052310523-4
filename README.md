@@ -8,6 +8,10 @@ http://localhost:801/users/1
 
 # Routes and Endpoints
 
+## DB Connectivity
+mongodb+srv://devtown:<password>@cluster0.evuq8ps.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://devtown:devtown@cluster0.evuq8ps.mongodb.net/?retryWrites=true&w=majority
+
 ## /users
 POST: Create a new user
 GET: Get all users Lists
@@ -89,7 +93,8 @@ data={
           "subscriptionDate": "04/01/2022"
 
 ...data
-        "surname": "Kinnal" 
+        "surname": "Kinnal", 
+        "clg": "AIT"
 
 O/P:
           "id": "1",
@@ -100,8 +105,28 @@ O/P:
           "issuedDate": "04/01/2022",
           "returnDate": "05/01/2022",
           "subscriptionType": "Premium",
-          "subscriptionDate": "04/01/2022"
+          "subscriptionDate": "04/01/2022",
+          "clg": "AIT"
 
 
 int arr = [20, 21, 22]
 arr.indexOf(21)
+
+
+
+
+
+## MVC Arch
+Modal View Controller
+
+## Schema
+Student Table
+id: String
+name: String
+age: number
+
+
+## Model
+id: 123
+name: rk
+age: 6
