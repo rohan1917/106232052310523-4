@@ -130,3 +130,19 @@ age: number
 id: 123
 name: rk
 age: 6
+
+
+
+## DTO (Data Transfer Object)
+User: {
+    id:
+    name:
+    age:
+}
+
+DTO
+
+InheritedUser{
+    id:
+    name:
+}
